@@ -3,21 +3,25 @@
 $a = 3;
 $b = 7;
 echo $a + $b;
+echo "\n";
 
 //課題２
 $array_month = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
 echo $array_month[7];
+echo "\n";
 
 //課題３
-$hello = "Hello!";
+$hello = "Hello,";
 $name = "Ryota";
-$world = "'s World";
-echo $hello,$name,$world;
+$world = "'s World!";
+echo $hello.$name.$world;
+echo "\n";
 
 //課題４
 $tech_boost = 'tech';
 $tech_boost .= ' boost';
 echo $tech_boost;
+echo "\n";
 
 //課題５ バグを修正
 // $2018_calendar = {
@@ -59,4 +63,6 @@ $calender_2018 = [
   "December" => "12月"
   ];
 echo $calender_2018["December"];
+echo "\n";
+
 
